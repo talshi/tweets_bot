@@ -4,9 +4,9 @@ var fs = require('fs');
 var json2csv = require('json2csv');
 
 var client = new Twitter({
-    consumer_key: 'AAAAAAAAAAAAAAAAAAAAAIxSwwAAAAAAOYiSIE7jMVLq6bQbRBD8XRLNhHM%3DDtXUyY0AqVz7WgCDHHds0pi0XcvhCDptGqO4tm4GVjYDoXWyla',
-    consumer_secret: 'AAAAAAAAAAAAAAAAAAAAAIxSwwAAAAAAOYiSIE7jMVLq6bQbRBD8XRLNhHM%3DDtXUyY0AqVz7WgCDHHds0pi0XcvhCDptGqO4tm4GVjYDoXWyla',
-    bearer_token: 'AAAAAAAAAAAAAAAAAAAAAIxSwwAAAAAAOYiSIE7jMVLq6bQbRBD8XRLNhHM%3DDtXUyY0AqVz7WgCDHHds0pi0XcvhCDptGqO4tm4GVjYDoXWyla'
+    consumer_key: '',
+    consumer_secret: '',
+    bearer_token: ''
 });
 
 var params = {q: '@airbnb', count: 100};
